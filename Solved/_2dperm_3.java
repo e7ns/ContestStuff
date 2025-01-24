@@ -1,3 +1,5 @@
+package Solved;
+
 import java.util.*;
 
 public class _2dperm_3 {

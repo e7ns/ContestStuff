@@ -1,4 +1,4 @@
-//too hard to solve, come back later
+package Solved;//too hard to solve, come back later
 import java.io.*;
 import java.util.*;
 

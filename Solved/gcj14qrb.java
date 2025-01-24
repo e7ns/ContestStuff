@@ -1,3 +1,5 @@
+package Solved;
+
 import java.util.Scanner;
 
 public class gcj14qrb {
