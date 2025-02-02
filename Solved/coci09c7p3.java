@@ -2,19 +2,20 @@ package Solved;
 
 import java.io.*;
 import java.util.*;
-class rts {
-    int[] rude;
-    int[] seat;
-    double dist;
-    public rts(int[] r, int[] s, double d){
-        rude = r; seat = s; dist = d;
-    }
-    public int[] getRude() {return rude;}
-    public int[] getSeat() {return seat;}
-    public double getDist() {return dist;}
-    public String toString(){ return Arrays.toString(rude)+" "+Arrays.toString(seat)+" "+dist;}
-}
+
 public class coci09c7p3 {
+    private static class rts {
+        int[] rude;
+        int[] seat;
+        double dist;
+        public rts(int[] r, int[] s, double d){
+            rude = r; seat = s; dist = d;
+        }
+        public int[] getRude() {return rude;}
+        public int[] getSeat() {return seat;}
+        public double getDist() {return dist;}
+        public String toString(){ return Arrays.toString(rude)+" "+Arrays.toString(seat)+" "+dist;}
+    }
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
