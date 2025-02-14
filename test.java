@@ -22,6 +22,6 @@ public class test {
         return out;
     }
     public static void main(String[] args) throws IOException {
-        System.out.println(factorize(7));
+        System.out.println(4^3);
     }
 }

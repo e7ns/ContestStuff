@@ -6,7 +6,7 @@ public class gcj14qrb {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
-        for (int i = 0; i < t; i++) {
+        for (int i = 1; i <= t; i++) {
             double c = sc.nextDouble();
             double f = sc.nextDouble();
             double x = sc.nextDouble();
